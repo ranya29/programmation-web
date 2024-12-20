@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    /*k n7otoha 0 tna7i ay espace f l site ya3ni a9al faragh abyedh */
+    padding: 0;
+    /*bin l lbordure w l'element eli f wostha */
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: 'helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin:0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(to margin-right, pink,);
+    background-color: #ff0088;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    margin: 0;
+    text-decoration: solid;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+nav{
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top:0;
+    z-index: 50;
+
+
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    /*tous les element ba7tha b3adhhom*/
+    justify-content: center;
+    /*hedhi matekhdem ken m3a l display*/
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* ktiba en majuscule*/
+    padding: 10px 20px;
+    transition: background-color 0.6s ease;
+    /*k t7ot l cusrseur 3al kelma ta3mlelna backgraoud-color 
+    7assb eli 7atitou ena f hover yab9a 0.3 s yghama9 f loun */
+}
+
+nav ul li a:hover {
+    background-color: #f088be;
+    color: white;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background: white;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+    color: #f494de;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+
+details summary {
+    cursor: pointer;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+details p {
+    margin-top: 0.5rem;
+}
+
+
+article {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 2px solid #eee;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+
